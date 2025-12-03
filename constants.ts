@@ -67,7 +67,26 @@ export const COUNTRIES: CountryData[] = [
     whyChoose: ["No Visa interviews for many", "Cultural similarity", "Affordable living"]
   }
 ];
+ {
+    id: "sweden",
+    name: "Sweden",
+    image: "https://picsum.photos/id/60/800/600",
+    overview: "Sweden is known for innovation, high-quality education, and globally recognized universities.",
+    programs: ["Engineering", "Computer Science", "Environmental Science", "Business"],
+    requirements: ["IELTS/TOEFL", "High School Certificate", "Proof of Funds"],
+    whyChoose: ["High living standards", "Safe and clean environment", "Strong job opportunities after graduation"]
+  },
 
+  {
+    id: "georgia",
+    name: "Georgia",
+    image: "https://picsum.photos/id/65/800/600",
+    overview: "A rapidly growing destination for MBBS and affordable higher education programs in English.",
+    programs: ["MBBS", "Dentistry", "Nursing", "Business", "IT"],
+    requirements: ["Passport", "High School Diploma", "Medical fitness certificate"],
+    whyChoose: ["Affordable tuition fees", "No entrance exam for MBBS", "Globally recognized medical degrees"]
+  }
+];
 export const SERVICES: ServiceData[] = [
   {
     id: "admission",
