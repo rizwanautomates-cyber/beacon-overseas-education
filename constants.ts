@@ -65,8 +65,7 @@ export const COUNTRIES: CountryData[] = [
     programs: ["Medicine", "Engineering", "Tourism", "International Relations"],
     requirements: ["High School Diploma", "Passport", "Language proficiency (if applicable)"],
     whyChoose: ["No Visa interviews for many", "Cultural similarity", "Affordable living"]
-  }
-];
+  },
  {
     id: "sweden",
     name: "Sweden",
@@ -76,7 +75,6 @@ export const COUNTRIES: CountryData[] = [
     requirements: ["IELTS/TOEFL", "High School Certificate", "Proof of Funds"],
     whyChoose: ["High living standards", "Safe and clean environment", "Strong job opportunities after graduation"]
   },
-
   {
     id: "georgia",
     name: "Georgia",
@@ -119,7 +117,6 @@ export const SERVICES: ServiceData[] = [
     icon: Plane
   }
 ];
-
 export const TESTIMONIALS: TestimonialData[] = [
   {
     id: 1,
