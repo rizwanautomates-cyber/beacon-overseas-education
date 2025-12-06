@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
       <div className="bg-beacon-blue text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">About Beacon Overseas</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">About Time Wise Consultatant</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             Empowering students in Gujrat and across Pakistan to achieve their academic dreams globally.
           </p>
@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => {
           <div>
             <h2 className="text-3xl font-serif font-bold text-beacon-blue mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Beacon Overseas Education was established with a singular vision: to provide transparent, honest, and expert career counseling to students aspiring to study abroad. Located in the heart of Gujrat, we have grown to become a trusted name for international education consultancy.
+              Time Wise Consultant was established with a singular vision: to provide transparent, honest, and expert career counseling to students aspiring to study abroad. Located in the heart of Gujrat, we have grown to become a trusted name for international education consultancy.
             </p>
             <p className="text-gray-600 leading-relaxed">
               We understand that studying abroad is not just about getting a degree—it's about building a future. Our team of experienced counselors works tirelessly to match students with universities that align with their academic profile, financial budget, and career aspirations.
