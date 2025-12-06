@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Globe } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';
+import { BrandLogo } from './BrandLogo';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,21 +33,21 @@ const Navbar: React.FC = () => {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-2' : 'bg-beacon-blue/95 py-4 backdrop-blur-sm'
+        scrolled ? 'bg-white shadow-md py-2' : 'bg-beacon-blue/95 py-3 backdrop-blur-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className={`p-2 rounded-lg ${scrolled ? 'bg-beacon-blue text-white' : 'bg-white text-beacon-blue'}`}>
-              <Globe size={24} />
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className={`transition-transform duration-300 group-hover:scale-105`}>
+              <BrandLogo className="w-14 h-14 md:w-16 md:h-16 drop-shadow-md" />
             </div>
             <div className="flex flex-col">
-              <span className={`text-xl font-serif font-bold tracking-wide ${scrolled ? 'text-beacon-blue' : 'text-white'}`}>
+              <span className={`text-xl md:text-2xl font-serif font-bold tracking-wide leading-none ${scrolled ? 'text-beacon-blue' : 'text-white'}`}>
                 TIME WISE
               </span>
-              <span className={`text-[10px] tracking-[0.2em] uppercase ${scrolled ? 'text-gray-600' : 'text-gray-300'}`}>
+              <span className={`text-[10px] md:text-xs tracking-[0.2em] uppercase font-medium ${scrolled ? 'text-gray-600' : 'text-beacon-gold'}`}>
                 Consultant
               </span>
             </div>
@@ -69,7 +70,7 @@ const Navbar: React.FC = () => {
             ))}
             <a 
               href={`tel:${CONTACT_INFO.phone}`}
-              className="bg-beacon-gold text-beacon-blue px-5 py-2 rounded-full font-bold text-sm hover:bg-yellow-400 transition-transform hover:scale-105 flex items-center gap-2"
+              className="bg-beacon-gold text-beacon-blue px-5 py-2 rounded-full font-bold text-sm hover:bg-yellow-400 transition-transform hover:scale-105 flex items-center gap-2 shadow-md"
             >
               <Phone size={16} />
               Call Now
@@ -108,7 +109,7 @@ const Navbar: React.FC = () => {
           ))}
           <a 
             href={`tel:${CONTACT_INFO.phone}`}
-            className="bg-beacon-blue text-white text-center py-3 rounded-lg font-semibold mt-4"
+            className="bg-beacon-blue text-white text-center py-3 rounded-lg font-semibold mt-4 shadow-md"
           >
             Call: {CONTACT_INFO.phoneDisplay}
           </a>
