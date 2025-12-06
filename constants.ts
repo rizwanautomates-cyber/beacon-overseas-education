@@ -5,7 +5,7 @@ export const CONTACT_INFO = {
   phone: "0335-8710682",
   phoneDisplay: "0335-8710682",
   whatsapp: "923358710682", // Format for API
-  email: "info@beaconoverseas.com",
+  email: "info@timewiseconsultant.com",
   address: "Opposite Wapda House, Near Shaheen Chowk, Sargodha Road, Gujrat",
   timings: "10:00 AM – 6:00 PM",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.835384668475!2d74.0754!3d32.5762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f1b0b0b0b0b0b%3A0x0!2sWapda%20House%20Gujrat!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s" 
@@ -151,7 +151,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "What are your office timings?",
-    answer: "We are open Monday to Saturday, from 10:00 AM to 4:00 PM."
+    answer: "We are open Monday to Saturday, from 10:00 AM to 6:00 PM."
   },
   {
     question: "Do you help with scholarships?",
