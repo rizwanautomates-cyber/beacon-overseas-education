@@ -7,7 +7,7 @@ export const CONTACT_INFO = {
   whatsapp: "923358710682", // Format for API
   email: "info@timewiseconsultant.com",
   address: "Opposite Wapda House, Near Shaheen Chowk, Sargodha Road, Gujrat",
-  timings: "10:00 AM – 6:00 PM",
+  timings: "10:00 AM – 4:00 PM",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.835384668475!2d74.0754!3d32.5762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f1b0b0b0b0b0b%3A0x0!2sWapda%20House%20Gujrat!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s" 
 };
 
@@ -65,26 +65,9 @@ export const COUNTRIES: CountryData[] = [
     programs: ["Medicine", "Engineering", "Tourism", "International Relations"],
     requirements: ["High School Diploma", "Passport", "Language proficiency (if applicable)"],
     whyChoose: ["No Visa interviews for many", "Cultural similarity", "Affordable living"]
-  },
- {
-    id: "sweden",
-    name: "Sweden",
-    image: "https://picsum.photos/id/60/800/600",
-    overview: "Sweden is known for innovation, high-quality education, and globally recognized universities.",
-    programs: ["Engineering", "Computer Science", "Environmental Science", "Business"],
-    requirements: ["IELTS/TOEFL", "High School Certificate", "Proof of Funds"],
-    whyChoose: ["High living standards", "Safe and clean environment", "Strong job opportunities after graduation"]
-  },
-  {
-    id: "georgia",
-    name: "Georgia",
-    image: "https://picsum.photos/id/65/800/600",
-    overview: "A rapidly growing destination for MBBS and affordable higher education programs in English.",
-    programs: ["MBBS", "Dentistry", "Nursing", "Business", "IT"],
-    requirements: ["Passport", "High School Diploma", "Medical fitness certificate"],
-    whyChoose: ["Affordable tuition fees", "No entrance exam for MBBS", "Globally recognized medical degrees"]
   }
 ];
+
 export const SERVICES: ServiceData[] = [
   {
     id: "admission",
@@ -117,13 +100,14 @@ export const SERVICES: ServiceData[] = [
     icon: Plane
   }
 ];
+
 export const TESTIMONIALS: TestimonialData[] = [
   {
     id: 1,
     name: "Ali Hassan",
     destination: "UK",
     university: "University of Hertfordshire",
-    quote: "Beacon Overseas made my dream reality. Their visa team is extremely knowledgeable about the latest UK regulations.",
+    quote: "Time Wise Consultant made my dream reality. Their visa team is extremely knowledgeable about the latest UK regulations.",
     image: "https://picsum.photos/100/100?random=1"
   },
   {
@@ -151,7 +135,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "What are your office timings?",
-    answer: "We are open Monday to Saturday, from 10:00 AM to 6:00 PM."
+    answer: "We are open Monday to Saturday, from 10:00 AM to 4:00 PM."
   },
   {
     question: "Do you help with scholarships?",

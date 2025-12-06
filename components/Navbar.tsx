@@ -44,10 +44,10 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-serif font-bold tracking-wide ${scrolled ? 'text-beacon-blue' : 'text-white'}`}>
-                BEACON
+                TIME WISE
               </span>
               <span className={`text-[10px] tracking-[0.2em] uppercase ${scrolled ? 'text-gray-600' : 'text-gray-300'}`}>
-                Overseas Education
+                Consultant
               </span>
             </div>
           </Link>

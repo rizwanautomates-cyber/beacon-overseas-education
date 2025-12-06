@@ -99,7 +99,7 @@ const ContactPage: React.FC = () => {
                 allowFullScreen={true} 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Beacon Overseas Location"
+                title="Time Wise Consultant Location"
               ></iframe>
             </div>
           </div>

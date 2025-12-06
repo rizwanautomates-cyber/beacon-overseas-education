@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           
           {/* Brand & About */}
           <div>
-            <h2 className="text-2xl font-serif font-bold text-beacon-gold mb-4">BEACON</h2>
+            <h2 className="text-2xl font-serif font-bold text-beacon-gold mb-4">TIME WISE</h2>
             <p className="text-gray-300 text-sm leading-relaxed mb-6">
               Your trusted partner in international education. We build bridges to your future with transparency, expert guidance, and personalized support.
             </p>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Beacon Overseas Education. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Time Wise Consultant. All rights reserved.</p>
         </div>
       </div>
     </footer>
